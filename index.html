@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="display">
+        <input type="text" placeholder="0" id="screen" />
+      </div>
+      <div class="btns">
+        <button id="ce" onclick="backspc()">CE</button>
+        <button class="desk" onclick="fact()">x!</button>
+        <button class="btn">(</button>
+        <button class="btn">)</button>
+        <button class="desk" class="btn">%</button>
+        <button id="ac" onclick="screen.value = ''">AC</button>
+        <button class="desk" onclick="sin()">sin</button>
+        <button class="desk" onclick="pi()">π</button>
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn">÷</button>
+        <button class="desk" onclick="cos()">cos</button>
+        <button class="desk" onclick="log()">log</button>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn">×</button>
+        <button class="desk" onclick="tan()">tan</button>
+        <button class="desk" onclick="sqrt()">√</button>
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn">-</button>
+        <button class="desk" onclick="e()">e</button>
+        <button class="desk" onclick="pow()">x<sup>2</sup></button>
+        <button class="btn">0</button>
+        <button class="btn">.</button>
+        <button id="eval" onclick="screen.value = eval(screen.value)">=</button>
+        <button class="btn">+</button>
+      </div>
+    </div>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
