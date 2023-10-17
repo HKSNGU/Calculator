@@ -86,8 +86,8 @@ footer {
   color: #EEEEEE;
   text-align: center;
   padding: 1% 0;
-  position: fixed;
-  bottom: 0px;
+/*   position: fixed;
+  bottom: 0px; */
   width: 100% ;
   font-family: 'Tilt Neon', sans-serif;
 }
