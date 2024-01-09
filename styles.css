@@ -126,6 +126,7 @@ footer {
   }
   .btns button:hover {
     box-shadow: 5px 5px 8px #00000020, -5px -5px 8px #ffffff;
+    background: #ecf0f3;
   }
   .btns button:active {
     box-shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1), inset -5px -5px 8px #ffffff;
